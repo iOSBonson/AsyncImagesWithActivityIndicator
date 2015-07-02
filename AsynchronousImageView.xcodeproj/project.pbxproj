@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B5EC64156F5CB800BE81CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B5EC63156F5CB800BE81CA /* UIKit.framework */; };
+		D9B5EC66156F5CB800BE81CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B5EC65156F5CB800BE81CA /* Foundation.framework */; };
+		D9B5EC68156F5CB800BE81CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B5EC67156F5CB800BE81CA /* CoreGraphics.framework */; };
+		D9B5EC6E156F5CB800BE81CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B5EC6C156F5CB800BE81CA /* InfoPlist.strings */; };
+		D9B5EC70156F5CB800BE81CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B5EC6F156F5CB800BE81CA /* main.m */; };
+		D9B5EC74156F5CB800BE81CA /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B5EC73156F5CB800BE81CA /* DemoAppDelegate.m */; };
+		D9B5EC7C156F5CF300BE81CA /* AsynchronousImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B5EC7B156F5CF300BE81CA /* AsynchronousImage.m */; };
+		D9B5ECA3156F68A500BE81CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B5ECA1156F68A500BE81CA /* RootViewController.m */; };
+		D9B5ECA4156F68A500BE81CA /* RootViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B5ECA2156F68A500BE81CA /* RootViewController~ipad.xib */; };
+		D9D48C3F15907E4800E83E74 /* RootViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D48C3E15907E4800E83E74 /* RootViewController~iphone.xib */; };
+		D9D48C4315907FDC00E83E74 /* AsyncImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D48C4215907FDC00E83E74 /* AsyncImageButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9B5EC5F156F5CB800BE81CA /* AsynchronousImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsynchronousImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B5EC63156F5CB800BE81CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9B5EC65156F5CB800BE81CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9B5EC67156F5CB800BE81CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9B5EC6B156F5CB800BE81CA /* AsynchronousImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsynchronousImageView-Info.plist"; sourceTree = "<group>"; };
+		D9B5EC6D156F5CB800BE81CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9B5EC6F156F5CB800BE81CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B5EC71156F5CB800BE81CA /* AsynchronousImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsynchronousImageView-Prefix.pch"; sourceTree = "<group>"; };
+		D9B5EC72156F5CB800BE81CA /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		D9B5EC73156F5CB800BE81CA /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		D9B5EC7A156F5CF300BE81CA /* AsynchronousImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsynchronousImage.h; path = ../AsynchronousImage.h; sourceTree = "<group>"; };
+		D9B5EC7B156F5CF300BE81CA /* AsynchronousImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsynchronousImage.m; path = ../AsynchronousImage.m; sourceTree = "<group>"; };
+		D9B5ECA0156F68A500BE81CA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D9B5ECA1156F68A500BE81CA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D9B5ECA2156F68A500BE81CA /* RootViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RootViewController~ipad.xib"; sourceTree = "<group>"; };
+		D9D48C3E15907E4800E83E74 /* RootViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RootViewController~iphone.xib"; sourceTree = "<group>"; };
+		D9D48C4115907FDC00E83E74 /* AsyncImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageButton.h; sourceTree = "<group>"; };
+		D9D48C4215907FDC00E83E74 /* AsyncImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B5EC5C156F5CB800BE81CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B5EC64156F5CB800BE81CA /* UIKit.framework in Frameworks */,
+				D9B5EC66156F5CB800BE81CA /* Foundation.framework in Frameworks */,
+				D9B5EC68156F5CB800BE81CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B5EC54156F5CB700BE81CA = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC69156F5CB800BE81CA /* AsynchronousImageView */,
+				D9B5EC62156F5CB800BE81CA /* Frameworks */,
+				D9B5EC60156F5CB800BE81CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B5EC60156F5CB800BE81CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC5F156F5CB800BE81CA /* AsynchronousImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B5EC62156F5CB800BE81CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC63156F5CB800BE81CA /* UIKit.framework */,
+				D9B5EC65156F5CB800BE81CA /* Foundation.framework */,
+				D9B5EC67156F5CB800BE81CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B5EC69156F5CB800BE81CA /* AsynchronousImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC72156F5CB800BE81CA /* DemoAppDelegate.h */,
+				D9B5EC73156F5CB800BE81CA /* DemoAppDelegate.m */,
+				D9B5ECA0156F68A500BE81CA /* RootViewController.h */,
+				D9B5ECA1156F68A500BE81CA /* RootViewController.m */,
+				D9D48C4C1590ADD400E83E74 /* CustomClasses */,
+				D9B5EC6A156F5CB800BE81CA /* Supporting Files */,
+				D9B5ECA2156F68A500BE81CA /* RootViewController~ipad.xib */,
+			);
+			path = AsynchronousImageView;
+			sourceTree = "<group>";
+		};
+		D9B5EC6A156F5CB800BE81CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC6B156F5CB800BE81CA /* AsynchronousImageView-Info.plist */,
+				D9B5EC6C156F5CB800BE81CA /* InfoPlist.strings */,
+				D9B5EC6F156F5CB800BE81CA /* main.m */,
+				D9B5EC71156F5CB800BE81CA /* AsynchronousImageView-Prefix.pch */,
+				D9D48C3E15907E4800E83E74 /* RootViewController~iphone.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D48C4C1590ADD400E83E74 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5EC7A156F5CF300BE81CA /* AsynchronousImage.h */,
+				D9B5EC7B156F5CF300BE81CA /* AsynchronousImage.m */,
+				D9D48C4115907FDC00E83E74 /* AsyncImageButton.h */,
+				D9D48C4215907FDC00E83E74 /* AsyncImageButton.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B5EC5E156F5CB800BE81CA /* AsynchronousImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B5EC77156F5CB800BE81CA /* Build configuration list for PBXNativeTarget "AsynchronousImageView" */;
+			buildPhases = (
+				D9B5EC5B156F5CB800BE81CA /* Sources */,
+				D9B5EC5C156F5CB800BE81CA /* Frameworks */,
+				D9B5EC5D156F5CB800BE81CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsynchronousImageView;
+			productName = AsynchronousImageView;
+			productReference = D9B5EC5F156F5CB800BE81CA /* AsynchronousImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B5EC56156F5CB700BE81CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = frozen;
+			};
+			buildConfigurationList = D9B5EC59156F5CB700BE81CA /* Build configuration list for PBXProject "AsynchronousImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9B5EC54156F5CB700BE81CA;
+			productRefGroup = D9B5EC60156F5CB800BE81CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B5EC5E156F5CB800BE81CA /* AsynchronousImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B5EC5D156F5CB800BE81CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B5EC6E156F5CB800BE81CA /* InfoPlist.strings in Resources */,
+				D9B5ECA4156F68A500BE81CA /* RootViewController~ipad.xib in Resources */,
+				D9D48C3F15907E4800E83E74 /* RootViewController~iphone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B5EC5B156F5CB800BE81CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B5EC70156F5CB800BE81CA /* main.m in Sources */,
+				D9B5EC74156F5CB800BE81CA /* DemoAppDelegate.m in Sources */,
+				D9B5EC7C156F5CF300BE81CA /* AsynchronousImage.m in Sources */,
+				D9B5ECA3156F68A500BE81CA /* RootViewController.m in Sources */,
+				D9D48C4315907FDC00E83E74 /* AsyncImageButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B5EC6C156F5CB800BE81CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B5EC6D156F5CB800BE81CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B5EC75156F5CB800BE81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B5EC76156F5CB800BE81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B5EC78156F5CB800BE81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsynchronousImageView/AsynchronousImageView-Prefix.pch";
+				INFOPLIST_FILE = "AsynchronousImageView/AsynchronousImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9B5EC79156F5CB800BE81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsynchronousImageView/AsynchronousImageView-Prefix.pch";
+				INFOPLIST_FILE = "AsynchronousImageView/AsynchronousImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B5EC59156F5CB700BE81CA /* Build configuration list for PBXProject "AsynchronousImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B5EC75156F5CB800BE81CA /* Debug */,
+				D9B5EC76156F5CB800BE81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B5EC77156F5CB800BE81CA /* Build configuration list for PBXNativeTarget "AsynchronousImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B5EC78156F5CB800BE81CA /* Debug */,
+				D9B5EC79156F5CB800BE81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B5EC56156F5CB700BE81CA /* Project object */;
+}
